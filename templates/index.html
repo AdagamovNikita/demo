@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hello Flask</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container mt-5">
+            {% if name %}
+                <h1>Hello {{ name.upper() }}!</h1>
+            {% else %}
+                <h1>Hello world!</h1>
+            {% endif %}
+            
+            <a href="{{ url_for('tasks') }}" class="btn btn-primary mt-3">View Tasks</a>
+        </div>
+    </body>
+</html> 
