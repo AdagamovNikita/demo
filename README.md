@@ -10,6 +10,10 @@ A simple todo application built with Flask and SQLite.
 - Search tasks
 - Responsive design with Bootstrap
 
+## Screenshot
+
+![Tasks Page](./screenshots/tasks.png)
+
 ## Installation
 
 1. Clone the repository:
@@ -45,6 +49,7 @@ hello_flask/
 │   ├── index.html      # Home page
 │   ├── tasks.html      # Tasks page
 │── static/             # Static files (CSS, JS, images)
+│── screenshots/        # Application screenshots
 ```
 
 ## Requirements
